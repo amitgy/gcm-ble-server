@@ -1,0 +1,10 @@
+# GCM BLE Server Requirements
+
+# Core dependencies
+dbus-python>=1.2.16
+PyGObject>=3.40.0
+
+# Optional: For development and testing
+# pytest>=6.0
+# black>=21.0  # Code formatting
+# pylint>=2.0  # Code linting
