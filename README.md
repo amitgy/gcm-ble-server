@@ -12,6 +12,7 @@ A Bluetooth Low Energy (BLE) GATT server that emulates a Continuous Glucose Moni
 ## Table of Contents
 
 - [Overview](#overview)
+- [Who Is This Project For?](#who-is-this-project-for)
 - [Project Objectives](#project-objectives)
 - [System Requirements](#system-requirements)
 - [Installation](#installation)
@@ -31,6 +32,20 @@ Without access to expensive real CGM hardware (~$100-500), we reverse-engineered
 - **Protocol understanding** without a proprietary black-box device
 - **Security research** and vulnerability analysis
 - **Mobile app development** without expensive hardware
+
+## Who Is This Project For?
+
+This project is designed for **anyone who needs to develop, test, or analyze Bluetooth Low Energy medical devices without owning expensive CGM hardware**. It provides a standards-compliant virtual CGM device based on the official Bluetooth SIG Glucose Service specification.
+
+**Perfect for:**
+
+| Role | Use Case |
+|------|----------|
+| **📱 Mobile App Developers** | Test and validate CGM mobile applications without real hardware |
+| **🔧 BLE & IoT Engineers** | Understand GATT protocol implementation and BLE communication patterns |
+| **🛡️ Security Researchers** | Analyze medical device security, test vulnerabilities, and research BLE weaknesses |
+| **🎓 Students & Learners** | Learn how real medical devices work at the protocol level |
+| **🧪 QA & Test Automation Teams** | Create automated test suites for medical device integrations and CI/CD pipelines |
 
 ## Project Objectives
 
